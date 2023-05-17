@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./style.css";
+import "./utils/style.css";
 import { AccountBalanceWallet } from "@mui/icons-material";
 
 const Register = (props) => {
@@ -40,7 +40,15 @@ const Register = (props) => {
             Password:
             <input type="text" />
           </label>
-          <button>LOGIN</button>
+          <Link to="/Dashboard" className="button">
+            <button>LOGIN</button>
+          </Link>
+          <p>
+            Create a new wallet ?{" "}
+            <Link to="/" className="button">
+              <span className="othertext">Register</span>
+            </Link>
+          </p>
         </form>
       </div>
     </div>

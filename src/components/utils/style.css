@@ -83,6 +83,15 @@ button:hover {
   background-color: #e6e8ff;
 }
 
+.othertext {
+  color: rgb(220, 83, 37);
+  font-weight: 900;
+}
+
+.button {
+  align-self: center;
+}
+
 /* MEDIA RESPONSIVENESS */
 @media (width <= 900px) {
   .container {

@@ -1,0 +1,20 @@
+/* CARD 1 */
+
+.card {
+  background-color: #080d39;
+  color: #e6e8ff;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #e6e8ff;
+  color: #080d39;
+  width: 50%;
+}
