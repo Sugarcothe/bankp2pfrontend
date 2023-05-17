@@ -28,7 +28,7 @@ const Register = (props) => {
       </div>
       <div className="formPage">
         <div className="themeForm">
-          <h1>Signup</h1>
+          <h1>REGISTER</h1>
         </div>
 
         <form>
