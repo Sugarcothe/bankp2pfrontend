@@ -1,0 +1,159 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.heroPage {
+  background-color: #080d39;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 3rem;
+}
+.themeName {
+  color: white;
+  padding-top: 2rem;
+}
+
+.desc {
+  max-width: "70%";
+  color: white;
+  padding-top: 2rem;
+  width: 500px;
+}
+
+.formPage {
+  background-color: #e6e8ff;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-justify: left;
+  text-align: left;
+  width: 500px;
+  color: #080d39;
+}
+
+.themeForm {
+  color: #080d39;
+}
+
+label {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 2rem;
+  border: 1px solid #080d39;
+  border-radius: 5px;
+}
+
+button {
+  width: 500px;
+  background-color: #080d39;
+  color: white;
+  align-self: center;
+  margin: 2rem;
+  font-size: 0.9rem;
+  padding: 0.7rem 0;
+  font-weight: 900;
+  border: 1px solid #080d39;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+}
+
+button:hover {
+  border: 1px solid #080d39;
+  color: #080d39;
+  background-color: #e6e8ff;
+}
+
+/* MEDIA RESPONSIVENESS */
+@media (width <= 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .heroPage {
+    background-color: #080d39;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .themeName {
+    color: white;
+    padding-top: 1rem;
+  }
+
+  .desc {
+    width: "90%";
+    color: white;
+    padding-top: 1rem;
+    font-size: 10px;
+  }
+
+  .formPage {
+    background-color: #e6e8ff;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  label {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    height: 1.5rem;
+    border: 1px solid #080d39;
+    border-radius: 5px;
+  }
+
+  button {
+    width: 80%;
+    background-color: #080d39;
+    color: white;
+    align-self: center;
+    margin: 1rem;
+    font-size: 0.9rem;
+    padding: 0.7rem 0;
+    font-weight: 700;
+  }
+
+  button:hover {
+    border: 1px solid #080d39;
+    color: #080d39;
+    background-color: #e6e8ff;
+  }
+}
