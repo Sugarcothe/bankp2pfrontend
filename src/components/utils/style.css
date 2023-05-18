@@ -1,4 +1,4 @@
-.container {
+.register-container {
   display: flex;
   flex-direction: row;
 }
@@ -62,7 +62,7 @@ input {
   border-radius: 5px;
 }
 
-button {
+.form-button {
   width: 500px;
   background-color: #080d39;
   color: white;
@@ -75,26 +75,32 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: 1s ease-in-out;
+  text-decoration: none;
 }
 
-button:hover {
+.button-text {
+  text-align: center;
+  text-decoration: none;
+}
+/* 
+.form-button:hover {
   border: 1px solid #080d39;
   color: #080d39;
   background-color: #e6e8ff;
-}
+} */
 
 .othertext {
   color: rgb(220, 83, 37);
   font-weight: 900;
 }
 
-.button {
+/* .button {
   align-self: center;
-}
+} */
 
 /* MEDIA RESPONSIVENESS */
 @media (width <= 900px) {
-  .container {
+  .register-container {
     display: flex;
     flex-direction: column;
   }
@@ -157,7 +163,7 @@ button:hover {
     border-radius: 5px;
   }
 
-  button {
+  .form-button {
     width: 80%;
     background-color: #080d39;
     color: white;

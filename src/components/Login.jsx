@@ -4,7 +4,7 @@ import { AccountBalanceWallet } from "@mui/icons-material";
 
 const Register = (props) => {
   return (
-    <div className="container">
+    <div className="register-container">
       <div className="heroPage">
         <div className="hero">
           <AccountBalanceWallet
@@ -40,8 +40,8 @@ const Register = (props) => {
             Password:
             <input type="text" />
           </label>
-          <Link to="/Dashboard" className="button">
-            <button>LOGIN</button>
+          <Link to="/Dashboard" className="form-button">
+            <p className="button-text">Login</p>
           </Link>
           <p>
             Create a new wallet ?{" "}

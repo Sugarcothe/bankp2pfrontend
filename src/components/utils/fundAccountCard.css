@@ -1,0 +1,66 @@
+/* CARD 1 */
+
+.fundAccount-card {
+  background-color: #080d39;
+  color: #e6e8ff;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.btnfundAccount {
+  background-color: #e6e8ff;
+  color: #080d39;
+  width: 50%;
+}
+
+.btnfundAccount:hover {
+  background-color: #e6e8ff;
+  color: #080d39;
+  width: 50%;
+}
+
+@media (width <= 900px) {
+  /* CARD 1 */
+
+  .fundAccount-card {
+    background-color: #080d39;
+    color: #e6e8ff;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 1rem;
+  }
+
+  .textNorm {
+    font-size: 10px;
+  }
+
+  .balance {
+    font-size: 1.4rem;
+  }
+
+  .btnfundAccount {
+    background-color: #e6e8ff;
+    color: #080d39;
+    margin-top: 1rem;
+    width: 100px;
+    border: 1px solid #080d39;
+    border-radius: 5px;
+  }
+
+  .btnfundAccount:hover {
+    background-color: #e6e8ff;
+    color: #080d39;
+    width: 50%;
+  }
+}

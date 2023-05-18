@@ -1,0 +1,30 @@
+.notification-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.message {
+  width: 300px;
+  text-align: justify;
+  text-justify: justify;
+}
+
+.status-success {
+  background-color: rgb(7, 95, 7);
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+
+.status-error {
+  background-color: rgb(166, 41, 7);
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+
+.notification-line {
+  height: 10px;
+  color: #080d39;
+  width: 200px;
+}

@@ -2,7 +2,7 @@ import "./App.css";
 import Register from "./components/Register.jsx";
 import Login from "./components/Login.jsx";
 import { Route, Routes } from "react-router-dom";
-import Dashboard from "./components/Dashboard";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
