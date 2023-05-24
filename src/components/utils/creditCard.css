@@ -5,6 +5,16 @@
   perspective: 600px;
 }
 
+.credit-card-bg-world {
+  background-image: url("../utils/img/world2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1.3rem;
+  height: 170px;
+  object-fit: cover;
+  overflow: none;
+}
+
 .card2 {
   border: 1px solid #080d39;
   background-color: tomato;
@@ -153,6 +163,8 @@
     -moz-perspective: 600px;
     perspective: 600px;
     margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
   }
 
   .card2 {
@@ -163,6 +175,16 @@
     height: auto;
     -webkit-transform: rotateY(0);
     -moz-transform: rotateY(0);
+  }
+
+  .credit-card-bg-world {
+    background-image: url("../utils/img/world2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1.3rem;
+    /* height: 170px; */
+    object-fit: cover;
+    overflow: none;
   }
 
   .card-logos {
@@ -258,7 +280,7 @@
     text-align: justify;
     background-color: #e6e8ff;
     margin: 2rem;
-    width: 300px;
+    width: 80%;
   }
 
   .white-line {

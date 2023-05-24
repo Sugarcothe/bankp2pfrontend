@@ -8,17 +8,7 @@ const Creditcard = () => {
   return (
     <div className="creditCard">
       <div className="card2 card__part">
-        <div
-          style={{
-            backgroundImage: `url(${worldbg})`,
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            padding: "1.3rem",
-            height: "170px",
-            objectFit: "cover",
-            overflow: "none",
-          }}
-        >
+        <div className="credit-card-bg-world">
           <div className="card-logos ">
             <img className="image-1" src={image1} alt="chip" />
             <img className="image-2" src={image2} alt="logo" />

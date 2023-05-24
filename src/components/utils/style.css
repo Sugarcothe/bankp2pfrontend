@@ -94,9 +94,36 @@ input {
   font-weight: 900;
 }
 
+.errMsg {
+  color: brown;
+  font-size: 15px;
+  font-weight: rgb(220, 83, 37);
+}
+
 /* .button {
   align-self: center;
 } */
+
+.welcomePage {
+  background-color: #080d39;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.welcome-text {
+  color: #e6e8ff;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.welcome-paragraph {
+  color: #e6e8ff;
+  font-size: 15px;
+}
 
 /* MEDIA RESPONSIVENESS */
 @media (width <= 900px) {

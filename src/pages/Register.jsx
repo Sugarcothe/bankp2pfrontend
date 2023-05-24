@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./utils/style.css";
+import "../components/utils/style.css";
 import { AccountBalanceWallet } from "@mui/icons-material";
 
 const Register = (props) => {
@@ -28,25 +28,37 @@ const Register = (props) => {
       </div>
       <div className="formPage">
         <div className="themeForm">
-          <h1>LOGIN</h1>
+          <h1>REGISTER</h1>
         </div>
 
         <form>
           <label>
-            walletId:
+            Name:
             <input type="text" />
           </label>
           <label>
-            Password:
+            Email:
+            <input type="text" />
+          </label>
+          <label>
+            Create Password:
+            <input type="text" />
+          </label>
+          <label>
+            pin:
+            <input type="Number" />
+          </label>
+          <label>
+            walletId:
             <input type="text" />
           </label>
           <Link to="/Dashboard" className="form-button">
-            <p className="button-text">Login</p>
+            <p className="button-text">REGISTER</p>
           </Link>
           <p>
-            Create a new wallet ?{" "}
-            <Link to="/" className="button">
-              <span className="othertext">Register</span>
+            Do you have an account?{" "}
+            <Link to="/Login" className="button">
+              <span className="othertext">Login</span>
             </Link>
           </p>
         </form>

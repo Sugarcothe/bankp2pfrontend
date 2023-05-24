@@ -7,13 +7,10 @@ const NotificationTable = (props) => {
     <>
       <div className="notification-container">
         <AccountBalance sx={{ color: "#080d39" }} />
-
         <div className="message">
-          {props.message}
+          {props.message}, |<span className="notificationTime">{props.time}</span>
         </div>
-        <div className={props.status}></div>
       </div>
-      <div className="notification-line"></div>
     </>
   );
 };

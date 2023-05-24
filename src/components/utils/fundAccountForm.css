@@ -1,0 +1,18 @@
+.container-fundaccountform {
+  background-color: #e6e8ff;
+  width: 350px;
+  padding: 1rem;
+  border: 1px solid #080d39;
+  border-radius: 5px;
+}
+
+.bn-fundAccountform {
+  padding: 10px 20px;
+  background-color: #080d39;
+  color: #e6e8ff;
+  width: 100px;
+  border: 1px solid #080d39;
+  border-radius: 5px;
+  margin-top: 2rem;
+  align-self: center;
+}

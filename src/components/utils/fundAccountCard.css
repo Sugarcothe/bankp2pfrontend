@@ -13,16 +13,73 @@
   margin: 1rem;
 }
 
+.welcomeCard {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.cardName {
+  font-size: 20px;
+  color: #ff5722;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.btn-fundAccount {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.btnfundAccount2 {
+  background-color:#080d39;
+  color: #ff5722;
+  width: 50%;
+  border: 1px solid #ff5722;
+  border-radius: 5px;
+  width: 100px;
+  padding: 10px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+}
+
+.btnfundAccount2:hover {
+  background-color: #080d39;
+  color: #e6e8ff;
+  width: 50%;
+  border: 1px solid #ff5722;
+  border-radius: 5px;
+  width: 100px;
+  padding: 10px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/* #ff5722 */
+
 .btnfundAccount {
   background-color: #e6e8ff;
   color: #080d39;
   width: 50%;
+  border: 1px solid #080d39;
+  border-radius: 5px;
+  width: 100px;
+  padding: 10px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: 1s ease-in-out;
 }
 
 .btnfundAccount:hover {
-  background-color: #e6e8ff;
-  color: #080d39;
+  background-color: #080d39;
+  color: #e6e8ff;
   width: 50%;
+  border: 1px solid #e6e8ff;
+  border-radius: 5px;
+  width: 100px;
+  padding: 10px;
 }
 
 @media (width <= 900px) {
