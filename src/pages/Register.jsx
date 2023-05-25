@@ -483,7 +483,7 @@ const Register = (props) => {
               {/* </Link> */}
               <p className="button-text-link">
                 Do you have an account?{" "}
-                <Link to="/Login" className="button">
+                <Link to="/" className="button">
                   <span className="othertext">Login</span>
                 </Link>
               </p>

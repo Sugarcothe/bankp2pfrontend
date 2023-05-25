@@ -149,7 +149,7 @@ const Register = (props) => {
               {/* </Link> */}
               <p className="button-text-link">
                 Create a new wallet ?{" "}
-                <Link to="/">
+                <Link to="/Register">
                   <span className="othertext">Register</span>
                 </Link>
               </p>
