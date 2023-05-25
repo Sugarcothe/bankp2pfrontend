@@ -12,12 +12,9 @@ const Register = (props) => {
   const userRef = useRef();
   const errRef = useRef();
 
-  const [user, setUser] = useState("");
   const [walletId, setWalletId] = useState("");
   const [password, setPassword] = useState("");
-  const [amount, setAmount] = useState("");
   const [errMsg, setErrMsg] = useState("");
-  const [balance, setBalance] = useState("");
   const [success, setSuccess] = useState(false);
 
   useEffect(() => {
@@ -48,7 +45,7 @@ const Register = (props) => {
       setSuccess(true);
     } catch (err) {
       if (!err?.response) {
-        setErrMsg("Server Failure");
+        setErrMsg("Server Failure, check back");
       } else if (err.response?.status === 400) {
         setErrMsg("Wrong Username or Password");
       } else if (err.response?.status === 401) {
@@ -73,10 +70,10 @@ const Register = (props) => {
               borderRadius: "50%",
             }}
           />
-          <h1 className="welcome-text">Welcome to Your Wallette</h1>
+          <h1 className="welcome-text">Welcome Back to Your Wallette</h1>
           <br />
           <p className="welcome-paragraph">
-            <a href="#">Click Here</a> To start Walletting...
+            <a href="#">Click Here</a> To continue Walletting...
           </p>
         </div>
       ) : (
