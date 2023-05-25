@@ -44,15 +44,16 @@ const Register = (props) => {
       setPassword("");
       setSuccess(true);
     } catch (err) {
-      if (!err?.response) {
-        setErrMsg("Server Failure, check back");
-      } else if (err.response?.status === 400) {
-        setErrMsg("Wrong Username or Password");
-      } else if (err.response?.status === 401) {
-        setErrMsg("Unauthorized!");
-      } else {
-        setErrMsg("Login Failed");
-      }
+      setErrMsg(err);
+      // if (!err?.response) {
+      //   setErrMsg("Wrong details, Check walletID or Password");
+      // } else if (err.response?.status === 400) {
+      //   setErrMsg("Wrong details, Check walletID or Password");
+      // } else if (err.response?.status === 401) {
+      //   setErrMsg("Wrong details, Check walletID or Password");
+      // } else {
+      //   setErrMsg("Server Failure");
+      // }
       errRef.current.focus();
     }
   };
