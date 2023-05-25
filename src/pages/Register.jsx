@@ -139,15 +139,15 @@ const Register = (props) => {
       setSuccess(true);
     } catch (err) {
       setErrMsg(err);
-      // if (!err?.response) {
-      //   setErrMsg("Wrong Details, already exist");
-      // } else if (err.response?.status === 409) {
-      //   setErrMsg("unauthorized, already exist");
-      // } else if (err.response?.status === 401) {
-      //   setErrMsg("unauthorized, already exist!");
-      // } else {
-      //   setErrMsg("Registration Failed");
-      // }
+      if (!err?.response) {
+        setErrMsg("Wrong Details, already exist");
+      } else if (err.response?.status === 409) {
+        setErrMsg("unauthorized, already exist");
+      } else if (err.response?.status === 401) {
+        setErrMsg("unauthorized, already exist!");
+      } else {
+        setErrMsg("Registration Failed");
+      }
       errRef.current.focus();
     }
   };
