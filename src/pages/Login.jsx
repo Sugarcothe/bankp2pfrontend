@@ -44,7 +44,7 @@ const Register = (props) => {
       setPassword("");
       setSuccess(true);
     } catch (err) {
-      setErrMsg(err);
+      setErrMsg(err?.response);
       // if (!err?.response) {
       //   setErrMsg("Wrong details, Check walletID or Password");
       // } else if (err.response?.status === 400) {
