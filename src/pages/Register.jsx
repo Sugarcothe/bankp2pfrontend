@@ -167,7 +167,10 @@ const Register = (props) => {
           <h1 className="welcome-text">Welcome to Your Wallette</h1>
           <br />
           <p className="welcome-paragraph">
-            <a href="#">Click Here</a> To start Walletting...
+            <Link to="/Dashboard" className="form-button">
+              <a href="#">Click Here</a>
+            </Link>{" "}
+            To start Walletting...
           </p>
         </div>
       ) : (
@@ -477,7 +480,7 @@ const Register = (props) => {
               {/* <Link to="/Dashboard" className="form-button"> */}
               <button className="button-form">REGISTER</button>
               {/* </Link> */}
-              <p>
+              <p className="button-text-link">
                 Do you have an account?{" "}
                 <Link to="/Login" className="button">
                   <span className="othertext">Login</span>

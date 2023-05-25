@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
 import "../components/utils/style.css";
 import { AccountBalanceWallet } from "@mui/icons-material";
 import { useEffect, useRef, useState, useContext } from "react";
 import AuthContext from "../context/AuthProvider";
 import axios from "../api/axios.js";
+import { Link } from "react-router-dom";
 
 const LOGIN_URL = "/login";
 
@@ -73,7 +73,10 @@ const Register = (props) => {
           <h1 className="welcome-text">Welcome Back to Your Wallette</h1>
           <br />
           <p className="welcome-paragraph">
-            <a href="#">Click Here</a> To continue Walletting...
+            <Link to="/Dashboard" className="form-button">
+              <a href="#">Click Here</a>
+            </Link>{" "}
+            To continue Walletting...
           </p>
         </div>
       ) : (
@@ -142,11 +145,11 @@ const Register = (props) => {
                 />
               </label>
               {/* <Link to="/Dashboard" className="form-button"> */}
-              <button className="button-text">Login</button>
+              <button className="button-form">Login</button>
               {/* </Link> */}
-              <p>
+              <p className="button-text-link">
                 Create a new wallet ?{" "}
-                <Link to="/" className="button">
+                <Link to="/">
                   <span className="othertext">Register</span>
                 </Link>
               </p>

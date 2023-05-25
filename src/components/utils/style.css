@@ -136,6 +136,10 @@ input {
   font-size: 15px;
 }
 
+.button-text-link {
+  margin-bottom: 2rem;
+}
+
 /* MEDIA RESPONSIVENESS */
 @media (width <= 900px) {
   .register-container {
