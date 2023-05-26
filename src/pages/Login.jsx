@@ -150,6 +150,7 @@ const Register = (props) => {
               <p className="button-text-link">
                 Create a new wallet ?{" "}
                 <Link to="/Register">
+                  
                   <span className="othertext">Register</span>
                 </Link>
               </p>
